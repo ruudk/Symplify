@@ -72,6 +72,7 @@ parameters:
         - '*/Fixture/*'
         - */vendor/*
         - */stubs/*
+        - packages/phpstan-rules/tests/Rules/CheckControllerRepositoryLayerRule/FixturePhp74/*
 
     bootstrapFiles:
         - tests/bootstrap.php
